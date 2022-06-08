@@ -1,0 +1,9 @@
+#socialnetwork {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.iconsocial:hover {
+  opacity: 70%;
+}

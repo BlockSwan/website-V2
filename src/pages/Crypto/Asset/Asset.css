@@ -1,0 +1,205 @@
+.headerAssetTab {
+  display: flex;
+}
+
+#assetGoBack {
+  position: relative;
+  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navAsset {
+  display: flex;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 0.5px solid var(--third-color);
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  white-space: nowrap;
+  scrollbar-width: 5px;
+  border-radius: 10px;
+  width: fit-content;
+}
+.navAsset::-webkit-scrollbar {
+  height: 1px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.assetNavLink {
+  background-color: var(--secondary-color);
+  padding: 6px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  color: var(--primary-color);
+}
+.activeTab {
+  background-color: var(--primary-color);
+  padding: 6px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.activeTab:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.WidgetTradingView {
+  height: 45vh;
+  filter: grayscale(1) var(--invert);
+}
+
+#bigIconContainer {
+  width: 80px;
+  height: 80px;
+  border-radius: 20%;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+}
+
+.iconAssetBig {
+  position: relative;
+  top: 17%;
+  left: 17%;
+  filter: var(--invert);
+  width: 50px;
+}
+
+.tickerbox {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+}
+
+.assetLogoBox {
+  justify-content: end;
+  margin-top: 10px;
+  display: flex;
+  margin-right: 10px;
+}
+.logoBoxandinfo {
+  display: flex;
+}
+
+.assetSloganBig {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.infoTicker {
+  margin-top: 16px;
+  margin-left: 10px;
+}
+#Assetbackground {
+  white-space: pre-line;
+}
+
+#Assetbackground a {
+  text-decoration: underline;
+  white-space: pre-line;
+}
+
+.overviewTitle {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#usdassetprice {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 5px;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.tags {
+  display: flex;
+  justify-content: end;
+}
+.smallSizetopAsset {
+  display: flex;
+  justify-content: center;
+}
+.topassetdetail {
+  display: block;
+  justify-content: center;
+}
+.rowMarket {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.dataBox {
+  text-align: center;
+}
+
+.assetlink {
+  width: 50%;
+}
+@media screen and (max-width: 850px) {
+  #assetGoBack {
+    position: relative;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: auto;
+  }
+  .navAsset {
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .smallSizetopAsset {
+    display: flex;
+    justify-content: center;
+  }
+  .assetNavLink {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .activeTab {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .topassetdetail {
+    display: block;
+    justify-content: center;
+  }
+
+  .iconAssetBig {
+    padding: 10px;
+    width: 50px;
+    left: 0px;
+    top: 0px;
+  }
+
+  #bigIconContainer {
+    width: 50px;
+    height: 50px;
+  }
+  .infoTicker {
+    margin-top: 6px;
+    margin-left: 1px;
+  }
+  .assetSlogan {
+    margin-top: 0px;
+  }
+  .assetSloganBig {
+    margin-top: 0px;
+  }
+
+  .WidgetTradingView {
+    height: 50vh;
+    filter: grayscale(1) var(--invert);
+  }
+}

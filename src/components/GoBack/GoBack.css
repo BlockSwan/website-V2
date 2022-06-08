@@ -1,0 +1,13 @@
+#GobackDiv {
+  display: flex;
+  vertical-align: text-bottom;
+  margin-bottom: 5px;
+}
+#btnGoback {
+  width: auto;
+}
+
+#btnGoback:hover {
+  width: auto;
+  text-decoration: underline;
+}

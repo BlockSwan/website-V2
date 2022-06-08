@@ -1,0 +1,46 @@
+#videoContainer {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+#listAbout {
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+#iframeAwake {
+  background-image: var(--background-video);
+  background-size: contain;
+  width: 560px;
+  height: 315px;
+  border-radius: 50px;
+  border: 0.5px solid var(--third-color);
+  filter: var(--invert2);
+}
+
+.aboutLink a {
+  color: var(--third-color);
+}
+
+.aboutLink a:hover {
+  color: var(--secondary-color);
+}
+
+.aboutLink a .prefix2:before {
+  display: inline-block;
+  content: "/";
+  color: var(--third-color);
+}
+
+.aboutLink a:hover .prefix2:before {
+  display: inline-block;
+  content: ">";
+  color: var(--secondary-color);
+}
+@media only screen and (max-width: 768px) {
+  #iframeAwake {
+    width: 380px;
+    height: 220px;
+  }
+}

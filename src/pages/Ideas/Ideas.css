@@ -1,0 +1,34 @@
+.blockDay {
+  background-color: var(--secondary-color);
+  padding: 5px;
+}
+
+.blockDay h4 {
+  color: var(--primary-color);
+}
+
+.previewValueIdea {
+  overflow: hidden;
+  height: fit-content;
+  text-align: center;
+  width: auto;
+}
+
+.topPreviewValueIdea {
+  display: flex;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.readWhy {
+  background-color: var(--low-color);
+  border: 0.5px solid var(--third-color);
+  color: var(--secondary-color);
+  vertical-align: middle;
+}
+.readWhy:hover {
+  background-color: var(--secondary-color);
+  border: 0.5px solid var(--third-color);
+  color: var(--primary-color);
+}

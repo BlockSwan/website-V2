@@ -1,0 +1,41 @@
+.centered {
+  text-align: center;
+}
+
+#Slogan {
+  margin-top: 15px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#tokenLogo {
+  width: 350px;
+}
+.bottom-nav {
+  margin-top: 40px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  z-index: 0;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  #tokenLogo {
+    width: 250px;
+  }
+  #Slogan {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 15px;
+  }
+  .bottom-nav {
+    margin-right: 0px;
+    font-size: 10px;
+  }
+}
+
+.bottom-nav li {
+  margin-right: 20px;
+  margin-left: 20px;
+}

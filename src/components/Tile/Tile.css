@@ -1,0 +1,30 @@
+/* LEFT TO RIghT */
+
+.navLink {
+  padding: 5px;
+
+  background: linear-gradient(
+      to left,
+      var(--primary-color) 50%,
+      var(--secondary-color) 50%
+    )
+    right;
+  background-size: 450px;
+  transition: 0.3s ease-out;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.navLink:hover {
+  background-position: left;
+  color: var(--primary-color);
+}
+.navLink:hover h3 {
+  color: var(--primary-color);
+}
+
+.active .navLink {
+  color: var(--primary-color);
+  background-position: left;
+  background-color: var(--secondary-color);
+}

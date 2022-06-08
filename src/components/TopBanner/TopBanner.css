@@ -1,0 +1,16 @@
+#zoneBanner {
+  width: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+#zoneBanner h1 {
+  color: var(--secondary-color);
+  position: relative;
+  vertical-align: middle;
+  text-decoration: underline;
+  top: 6px;
+}

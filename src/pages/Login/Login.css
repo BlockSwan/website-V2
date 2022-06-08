@@ -1,0 +1,49 @@
+#solXphant {
+  text-align: center;
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  filter: var(--invert2);
+}
+
+.center {
+  text-align: center;
+}
+
+#getphantom {
+  color: var(--third-color);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+#getphantom:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
+#errorAuth {
+  width: fit-content;
+  height: max-content;
+  border: 0.5px solid var(--third-color);
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#swanworking {
+  width: 300px;
+  border-radius: 50px;
+  right: auto;
+  filter: var(--invert);
+}
+
+#iconSWAN {
+  width: 100px;
+  border-radius: 50px;
+  right: auto;
+  filter: var(--invert1);
+}

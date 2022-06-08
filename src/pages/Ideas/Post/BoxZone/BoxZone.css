@@ -1,0 +1,23 @@
+.boxZone {
+  border: 0.5px solid var(--third-color);
+  border-radius: 15px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topBoxZone {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 7px;
+  border-bottom: 0.5px solid var(--third-color);
+  background-color: var(--low-color);
+}
+
+.topBoxZone h3 {
+  margin-left: 10px;
+}
+
+.boxZoneContent {
+  padding: 15px;
+}

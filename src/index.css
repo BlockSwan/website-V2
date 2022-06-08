@@ -1,0 +1,221 @@
+@font-face {
+  font-family: "BestChoice";
+  src: local("Rajdhani"), url(fonts/BestChoiceRegular.otf) format("truetype");
+}
+
+:root {
+  --primary-color: #101010;
+  --secondary-color: rgb(243, 243, 243);
+  --third-color: #8a8a8a;
+  --low-color: #ffffff05;
+  --background-video: url("/public/images/backgroundAwake.png");
+}
+
+[data-theme="light"] {
+  --primary-color: rgb(243, 243, 243);
+  --secondary-color: #101010;
+  --third-color: #8a8a8a;
+  --logo-typo: url("/public/images/typoBlack.png");
+  --invert: invert(0);
+  --invert2: invert(1);
+  --low-color: #0000000c;
+}
+[data-theme="dark"] {
+  --primary-color: #101010;
+  --secondary-color: rgb(243, 243, 243);
+  --third-color: #8a8a8a;
+  --logo-typo: url("/public/images/typoWhite.png");
+  --invert: invert(1);
+  --invert2: invert(0);
+  --low-color: #ffffff0a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--secondary-color);
+  font-family: "BestChoice";
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  background-color: var(--primary-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "BestChoice";
+  color: var(--secondary-color);
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--secondary-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+span {
+  color: var(--secondary-color);
+}
+
+a:visited {
+  color: var(--secondary-color);
+}
+mark span {
+  color: var(--primary-color);
+}
+.content {
+  padding-left: 285px;
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 35px;
+  margin-top: 80px;
+}
+
+button {
+  background-color: var(--secondary-color);
+  padding: 8px;
+  color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+}
+
+button:hover,
+button:disabled {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 8px;
+  border: 1px solid var(--secondary-color);
+}
+
+mark {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 5px;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: 10px;
+  scrollbar-color: var(--secondary-color) var(--low-color);
+}
+
+/* Works on Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--low-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--third-color);
+}
+
+hr {
+  border: 0.5px solid var(--third-color);
+  opacity: 0.2;
+}
+
+/* FORM CONTACT*/
+
+.form {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  outline: none;
+  border: none;
+}
+
+input {
+  background-color: var(--primary-color);
+  border: none;
+  border-bottom: 1px solid var(--secondary-color);
+  outline: none;
+  border-radius: 0px;
+}
+
+form:focus,
+input:focus {
+  background-color: var(--primary-color);
+  outline: none;
+  border: none;
+  box-shadow: none;
+  color: var(--secondary-color);
+  opacity: 0.9;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+textarea {
+  background-color: var(--primary-color);
+  border: none;
+  border-bottom: 1px solid var(--secondary-color);
+  outline: none;
+  border-radius: 0px;
+}
+
+select {
+  padding: 1px;
+  border-top: none;
+  border-left: none;
+
+  border-right: none;
+  border-bottom: 1px solid var(--secondary-color);
+
+  background-color: var(--primary-color);
+  box-shadow: none;
+  outline: none;
+  border-radius: 0px;
+}
+
+select * {
+  background-color: green;
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    font-size: 12px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+  .content {
+    margin-top: 120px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}

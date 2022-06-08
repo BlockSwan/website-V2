@@ -1,0 +1,35 @@
+#btnAuthenticate {
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color: var(--secondary-color);
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: var(--primary-color);
+  border: 0.5px solid var(--third-color);
+  border-radius: 10px;
+  height: 35px;
+  width: fit-content;
+}
+#btnAuthenticate p {
+  color: var(--primary-color);
+}
+#btnAuthenticate:hover p {
+  color: var(--secondary-color);
+}
+
+#btnAuthenticate:hover {
+  background-color: var(--primary-color);
+  border: 0.5px solid var(--third-color);
+  color: var(--secondary-color);
+  right: 0;
+  left: 0;
+}
+
+/* For mobile phones: */
+
+@media only screen and (max-width: 850px) {
+  #btnAuthenticate {
+    position: relative;
+  }
+}

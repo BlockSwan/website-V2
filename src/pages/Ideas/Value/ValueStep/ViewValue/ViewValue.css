@@ -1,0 +1,42 @@
+.valueIdeaTicker {
+  background-color: var(--third-color);
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+
+.value_investment {
+  display: inline-block;
+  width: 99%;
+}
+
+.value_investment strong {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 1px;
+}
+
+.value_investment a {
+  color: var(--third-color);
+  padding: 1px;
+  text-decoration: none;
+}
+.value_investment a::before {
+  content: "> ";
+}
+
+.value_investment img {
+  border-radius: 20px;
+  filter: grayscale(1);
+  width: 50%;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 850px) {
+  .value_investment img {
+    width: 70%;
+  }
+}

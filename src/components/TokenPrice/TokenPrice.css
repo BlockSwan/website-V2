@@ -1,0 +1,24 @@
+/* For mobile phones: */
+#tokenPrice {
+  vertical-align: super;
+  margin: 10px;
+  margin-left: 2px;
+  position: relative;
+  bottom: 4px;
+}
+
+#token {
+  height: 42px;
+  display: flex;
+}
+
+#appLogo {
+  height: 40px;
+  width: 40px;
+  filter: var(--invert2);
+}
+@media only screen and (max-width: 768px) {
+  .tokenPrice {
+    display: none;
+  }
+}

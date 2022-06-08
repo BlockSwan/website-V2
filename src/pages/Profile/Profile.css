@@ -1,0 +1,32 @@
+.investorCard {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  border: 0.5px solid var(--third-color);
+  padding: 20px;
+  border-radius: 20px;
+  background-color: var(--low-color);
+}
+
+.fa {
+  padding: 5px;
+  border: 0.8px solid var(--secondary-color);
+  border-radius: 5px;
+  margin: 10px;
+  position: relative;
+  background-color: var(--primary-color);
+}
+
+.fa:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.ramp {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ibswnGINFO td {
+  font-size: 12.9px;
+}

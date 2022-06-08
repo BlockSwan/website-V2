@@ -1,0 +1,12 @@
+#topLearn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.searchCoin {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+}

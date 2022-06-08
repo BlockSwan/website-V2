@@ -1,0 +1,47 @@
+#sidebar {
+  background-color: var(--primary-color);
+  height: 100%;
+  width: 250px;
+  left: 0;
+  padding: 10px;
+  border-right: 0.5px solid var(--third-color);
+  position: fixed;
+  top: 72px;
+  z-index: 1;
+}
+
+.Sidebar-list li {
+  margin-top: 15px;
+}
+
+/* For mobile phones: */
+
+@media only screen and (max-width: 850px) {
+  #sidebar {
+    top: 55px;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: none;
+    border-right: none;
+    overflow: auto;
+    white-space: nowrap;
+    z-index: 6;
+    height: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border-bottom: 0.5px solid var(--third-color);
+  }
+
+  #sidebar::-webkit-scrollbar {
+    display: none;
+  }
+  .Sidebar-list {
+    display: flex;
+    text-align: center;
+  }
+  .Sidebar-list li {
+    position: relative;
+    font-size: 12px;
+    margin-top: 0px;
+  }
+}

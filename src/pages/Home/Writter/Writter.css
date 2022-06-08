@@ -1,0 +1,24 @@
+.wrapper {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.wrapper h1 {
+  font-size: 30px;
+}
+
+.wrapper .txt-rotate {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+#wrap {
+  color: var(--primary-color);
+}
+
+/* For mobile phones: */
+
+@media only screen and (max-width: 768px) {
+  .wrapper h1 {
+    font-size: 20px;
+  }
+}

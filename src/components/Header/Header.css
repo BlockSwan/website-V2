@@ -1,0 +1,80 @@
+/* FOR DESKTOP */
+
+header {
+  position: fixed;
+  top: 0px;
+  background: var(--primary-color);
+  width: 100%;
+  left: 0;
+  padding: 10px;
+  z-index: 5;
+  border-bottom: 0.5px solid var(--third-color);
+}
+.sidebarToggler {
+  display: none;
+  position: inherit;
+}
+
+#Typo {
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  height: 40px;
+  width: 300px;
+  background-image: var(--logo-typo);
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+
+.header-list {
+  display: flex;
+  width: 100%;
+}
+
+li {
+  padding: 10px;
+}
+
+#tokenprice {
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  margin-right: 0;
+  justify-content: end;
+}
+
+#nativebalance {
+  position: relative;
+  bottom: 10px;
+}
+
+/* For mobile phones: */
+
+@media only screen and (max-width: 768px) {
+  #Typo {
+    width: 150px;
+    margin-top: 20px;
+    height: 40px;
+    background-size: 120px;
+    margin-left: 10px;
+  }
+  #tokenprice {
+    display: none;
+  }
+
+  .sidebarToggler {
+    margin-top: 10px;
+    display: flex;
+  }
+  #nativebalance {
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
+    justify-content: end;
+  }
+  .authbtnHeader {
+    position: relative;
+    margin-left: auto;
+  }
+}
