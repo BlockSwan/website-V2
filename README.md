@@ -1,5 +1,5 @@
 # website-V2
-Web3 dApp gathering info about our protocol, our investors and blockchain in general
+Web3 dApp for the BlockSwan Investment Vehicle
 
 ## TECH STACK
 MORALIS | REACT | JS | CSS
